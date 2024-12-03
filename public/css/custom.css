@@ -1,0 +1,348 @@
+/* Reset some default styling */
+body, h1, h2, h3, h4, h5, h6, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style for the header container */
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; /* Change this to your preferred background color */
+    padding: 10px;
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* Style for the text container */
+.text-container {
+    flex: 1;
+    text-align: right;
+    
+}
+
+/* Style for the "Artemisa" text */
+.artemisa {
+    color: navy;
+    
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logo {
+        margin-right: 10px; /* Adjust the margin for smaller screens */
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .visible-xs {
+        display: block;
+    }
+}
+
+
+/* Style for the footer */
+footer {
+    background-color: #0d4ab5; /* Background color */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for the footer content */
+.footer-content {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+
+/*USER TYPES*/
+
+body {
+    background-image: url('https://udes.edu.co/images/la_universidad/udes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 8px;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid #007bff;
+}
+.table th, .table td {
+    text-align: center;
+}
+
+
+/*home*/
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+/*questions*/
+
+        /* Styling for the outer container */
+        .form-wrapper {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .input-box {
+            border: 2px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .remove-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-end;
+        }
+
+        .add-element-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .add-element-btn i {
+            margin-right: 8px;
+        }
+
+        .add-element-menu {
+            display: none;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+            display: flex;
+        }
+
+        .menu-option {
+            margin-bottom: 5px;
+        }
+
+        .show-menu {
+            display: flex !important;
+        }
+
+        .menu-left, .menu-right {
+            flex: 1;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+        }
+
+        .menu-right {
+            border-right: none;
+        }
+
+        .disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .centered-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn-success, .btn-danger {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        
+/* Style for the header container */
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; /* Change this to your preferred background color */
+    padding: 10px;
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* Style for the text container */
+.text-container {
+    flex: 1;
+    text-align: right;
+    
+}
+
+/* Style for the "Artemisa" text */
+.artemisa {
+    color: navy;
+    
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logo {
+        margin-right: 10px; /* Adjust the margin for smaller screens */
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .visible-xs {
+        display: block;
+    }
+}
+
+/* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: #0d4ab5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d4ab5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style for dropdown content links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style for dropdown content links on hover */
+.dropdown-content a:hover {
+    background-color: #0d4ab5;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Reset some default styling */
+body, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #0d4ab5; /* Background color */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for the footer content */
+.footer-content {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+    /* Style the input boxes */
+    .input-box {
+        border: 2px solid #0d4ab5;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Style the submit button */
+    .btn-success {
+        background-color: #0d4ab5;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    /* Style the dropdown select */
+    .form-select {
+        border: 2px solid #0d4ab5;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
